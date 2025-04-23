@@ -1,0 +1,154 @@
+body {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(244, 229, 213);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #b15a27;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color:#973e0a;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p { font-size: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+ul {
+    line-height: 2.5;
+    font-size: 1.1rem
+}
+.lista-com-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap; 
+    margin: 40px auto;
+  }
+  
+.lista-com-imagem ul {
+    list-style: square;
+    font-size: 18px;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+  }
+  
+.imagem-lado {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }  
+
+table {
+    width: 60%; 
+    margin: 30px auto; 
+    border-collapse: collapse;
+    border-radius: 10px; 
+  }
+  
+  th, td {
+    padding: 6px;
+    text-align: center;
+    border-bottom: 2px solid #201e1e; 
+  }
+  
+  th {
+    color: #291d1d;
+    font-weight: bold;
+    padding: 5px; 
+    width: 100px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e6a244; 
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #b6511a; 
+  }
+
+  tr:hover {
+    background-color: #f06814; 
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+    width: 4px; 
+
+  }
+  
+  td img {
+    width: 200px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  td img:hover {
+    transform: scale(2.5); 
+  }
+  
+a {
+    color: #463125;
+    text-decoration: none;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #ff6f61
+}
+
+button {
+    background-color: #cf5a16;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    margin: 20px auto; 
+  }
+  
+button:hover {
+    background-color: #ff6f61;
+  }
+  
+.balao {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d24949;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    color: #f0f0f0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+.balao.mostrar {
+    display: block;
+    opacity: 1;
+  }
+  
