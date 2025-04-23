@@ -5,30 +5,31 @@ body {
     background-color: rgb(244, 229, 213);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-}
+  }
 
 h1 {
     color: #b15a27;
     text-align: center;
     font-size: 2.5rem;
-}
+  }
 
 h2 {
     color:#973e0a;
     text-align: center;
     font-size: 1.5rem;
-}
+  }
 
-p { font-size: 1.5rem;
+p { 
+    font-size: 1.5rem;
     text-align: justify;
     margin: 0 auto;
     max-width: 800px;
-}
+  }
 
 ul {
     line-height: 2.5;
     font-size: 1.1rem
-}
+  }
 .lista-com-imagem {
     display: flex;
     align-items: center;
